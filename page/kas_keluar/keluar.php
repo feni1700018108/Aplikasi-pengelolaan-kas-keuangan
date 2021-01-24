@@ -114,19 +114,19 @@ if(!isset($_SESSION['username'])) {
                                             <form role="form" method="POST">
                                                 <div class="form-group">
                                                     <label>Kode</label>
-                                                    <input class="form-control" name="kode" placeholder="Input Kode" />
+                                                    <input class="form-control" name="kode" placeholder="Input Kode" value="" required="" />
                                                 </div>
                                                 <div>
                                                     <label>Keterangan</label>
-                                                    <textarea class="form-control" rows="3" name="ket"></textarea>
+                                                    <textarea class="form-control" rows="3" name="ket" value="" required=""></textarea>
                                                 </div>
                                                 <div class="form-group">
                                                     <label>Tanggal</label>
-                                                    <input class="form-control" type="date" name="tgl" />
+                                                    <input class="form-control" type="date" name="tgl" value="" required=""/>
                                                 </div>
                                                 <div class="form-group">
                                                     <label>Jumlah</label>
-                                                    <input class="form-control" type="number" name="jml" />
+                                                    <input class="form-control" type="number" name="jml" value="" required=""/>
                                                 </div>
                                         </div>
                                         <div class="modal-footer">
